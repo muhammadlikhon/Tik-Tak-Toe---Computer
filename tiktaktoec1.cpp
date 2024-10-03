@@ -175,13 +175,7 @@ int main()
                 a[1][1]='B';
                 chal=1;
                 goto jump;
-            }if(chal==0){
-            if(a[0][0]=='O'){
-                a[0][0]='B';
-                chal=1;
-                goto jump;
             }
-        }
     if(chal==0){
     if(a[0][0]=='B' && a[1][1]=='B' && a[2][2]=='O'){
        a[2][2]='B';
